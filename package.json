@@ -1,0 +1,37 @@
+{
+  "name": "cm-server",
+  "version": "1.0.0",
+  "description": "backend service for coding monk version 1",
+  "main": "server.js ",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahop-324/cm-server.git"
+  },
+  "author": "SHREYANSH SHAH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahop-324/cm-server/issues"
+  },
+  "homepage": "https://github.com/shahop-324/cm-server#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "otp-generator": "^4.0.0",
+    "util": "^0.12.5",
+    "xss-clean": "^0.1.1"
+  }
+}
